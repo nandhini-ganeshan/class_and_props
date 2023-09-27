@@ -1,0 +1,74 @@
+.card-div{
+    height:300px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    
+}
+.popup-menu{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.profile .profile-img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+   
+}
+/* above one is parent and below one is child if we give 100%
+to the child it will take the 100% width and height of the parent  */
+
+.profile .profile-img img{
+    height: 100%;
+    width: 100%;
+object-fit: cover;
+
+
+/* display: flex;
+align-items: center;
+justify-self: center; */
+
+
+}
+/* object-fit : cover;
+means it will cover the width and height peoperly of the parent */
+
+
+.profile .profile-name{
+    color: rgb(100, 96, 96);
+    font-size: 25px;
+
+}
+
+.card-div .status{
+    background-color: aquamarine;
+    height: 50px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.status-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
